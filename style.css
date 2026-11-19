@@ -42,7 +42,7 @@ p{
 
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 8   vh;
+    scroll-padding-top: 8vh;
 }
 nav {
     position: fixed;
