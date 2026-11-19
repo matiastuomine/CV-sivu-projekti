@@ -1,0 +1,76 @@
+
+body {
+    margin: 0;
+    font-family: monospace;
+}
+
+.etusivu {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: lightblue;
+}
+   
+h1{
+    color: rgb(255, 0, 0);
+    align-items: center;
+    font-size: 10vh;
+    margin-bottom: 0;
+    margin-top: 0;
+    
+}
+.mina{
+    scroll-padding-top: 100px;
+}
+
+h2{
+    scroll-padding-top: 100px;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    margin-top: 35vh;
+
+}
+p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 8   vh;
+}
+nav {
+    position: fixed;
+    top:40%;
+    left: 10px;
+    color: rgb(255, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    text-decoration: none;
+    color: black;
+
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    line-height: 2;
+    font-size: 2vh;
+}
+.kuvat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 20px;
+}
